@@ -15,6 +15,5 @@ function formatText(text) {
 
 module.exports = function(url, accessKey, text) {
   const documents = formatText(text);
-
   return callTextAnalytics(url, path, accessKey, documents);
 }
